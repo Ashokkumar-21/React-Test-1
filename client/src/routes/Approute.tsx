@@ -2,13 +2,11 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomePage } from "../pages/HomePage";
 
-interface ApprouteProps {}
-
-export const Approute: React.FC<ApprouteProps> = () => {
+export const Approute: React.FC<any> = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );

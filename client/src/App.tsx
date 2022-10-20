@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <Approute />
-      <h1>Helo</h1>
     </div>
   );
 }
