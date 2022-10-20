@@ -1,10 +1,12 @@
-import React from "react";
 import { Approute } from "./routes/Approute";
 import "./App.css";
 
 function App() {
   return (
-    <Approute />
+    <div>
+      <Approute />
+      <h1>Helo</h1>
+    </div>
   );
 }
 
